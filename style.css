@@ -126,97 +126,43 @@ footer {
 
 
     @media only screen and (max-width:500px) {
-  
-  .container, .container1, .container11,aside,footer {
-    width: 100%
-  }
-   body{
-    background-color: grey;
-}
 h1{
     text-align: center;
 }
-.container{
-    background-color: rgb(151, 85, 85);
-    margin: -15.55px;
-    padding: 25px;
-}
-.container1{
-    background-color: black;
-    margin: -10px;
-    color: white;
-    display: flex;
-    align-items: center;
-}
-.container11{
-          margin-top: 10px;
-          padding-top: 35px;
-          color: white; 
-          text-align: center;
- 
-}
-p.quote{
-    text-align:center;
-    padding-right:20rem ;
-}
-h2{
-      text-decoration: underline;
-      color: #030303;
-      margin-left: 15rem;
-      padding-right: 15rem;
-      padding-top: 10px;
-}
-p{
-    margin-left: 15rem;
-      
-      padding-top: 10px;
-}
-aside{ 
-      float: left;
-      width: 15%;
-      height: 1803px;
-      padding: 15px; 
-      color: #bb9457; 
-      box-sizing: border-box; 
-      background-color: #d8d8d8; 
-      margin:8px 0px 0px -10px;
-       } 
-       aside a{
-        color: black;
-        text-decoration: none;
-       }
-
-aside ul{ 
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: center; 
-      }
-
-aside li {
-  color: rgba(24, 20, 20, 0.76);
-  padding: 15rem 185rem;
-  text-decoration: none;
-  text-align: center;
-}
-
-
-aside li:hover {
-  background-color: #521616;
-  color: rgb(17, 16, 16);
-  border-radius: 15ch;
-}
-
-
-aside li{
-      padding: 20px;
-}      
-
-footer{
-    margin:-17px -10px 7px -10px;
-    padding: 10px 10px 10px 10px;
-    background-color: black;
-    color: white;
- 
-}
+  h2,h3,h4{
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  aside,aside ul,aside li,aside li:hover{
+    display: none;
+  }
+  img{
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  p{
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 6px;
+  }
+  .li{
+    width: 100%;
+    text-align: left;
+  }
+  li{
+    width: 100%;
+    text-align: left;
+    margin-left:-270px ;
+    list-style-type: none;
+  }
+  footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+  }
 }
